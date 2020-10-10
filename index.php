@@ -27,3 +27,4 @@ $mainController = new \AdvertisementsManagerApp\MainController($databaseManager,
 $mainController->boot();
 
 /* ============== Boot App ================ */
+
