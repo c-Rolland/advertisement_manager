@@ -14,10 +14,6 @@ require_once 'Templates.php';
 
 /* ============== Bootstrap ================== */
 
-/* ============== View loader ================ */
-
-/* ============== View loader ================ */
-
 /* ============== Boot App ================ */
 
 $databaseManager = new \AdvertisementsManagerApp\DatabaseManager();
@@ -27,4 +23,3 @@ $mainController = new \AdvertisementsManagerApp\MainController($databaseManager,
 $mainController->boot();
 
 /* ============== Boot App ================ */
-
